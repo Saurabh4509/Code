@@ -1,0 +1,25 @@
+#Created by Saurabh Dongre
+num = int(input("Enter the number:- "))
+
+n1= 0
+n2 = 1
+null = 0
+
+if num<= 0 :
+    print("Please Enter Positive Number")
+elif num ==1:
+    print("So your fibonacci Series")
+    print(n1)
+else:
+    print("So your fibonacci Series")
+    while null<num:
+        print(n1)
+        n3 =n1+n2
+        n1=n2
+        n2=n3
+        null += 1
+
+
+   
+    
+    
